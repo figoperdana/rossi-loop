@@ -1,0 +1,36 @@
+.body-header{
+    
+    background-color: red;
+    display: flex;
+    width: auto;
+    height: auto;
+    font-family: "Orbitron", sans-serif;
+    margin:10px
+}
+
+.image-novel{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 50px 25px 25px 25px;
+    gap: 30px;
+}
+
+.text-header{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align:justify
+
+
+}
+.Link-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.text-btn{
+
+}
