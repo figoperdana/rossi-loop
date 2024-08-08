@@ -1,9 +1,4 @@
-import LinkButton from "../Components/LinkButton";
 import './Sinopsis.css'
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
-</style>
 
 export default function Novelpage(){
 
