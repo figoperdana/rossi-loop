@@ -1,11 +1,11 @@
 .body-header{
     
     background-color: red;
-    display: flex;
     width: auto;
     height: auto;
     font-family: "Orbitron", sans-serif;
     margin:10px
+    
 }
 
 .image-novel{
@@ -31,6 +31,11 @@
 
 }
 
-.text-btn{
-
+.details{
+    list-style-type: none;
+    background-color: white;
+    margin: 10px;
+    color: red;
 }
+
+

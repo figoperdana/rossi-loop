@@ -1,5 +1,5 @@
 import LinkButton from "../Components/LinkButton";
-import './Novelpage.css'
+import './Sinopsis.css'
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
@@ -8,23 +8,32 @@ import './Novelpage.css'
 export default function Novelpage(){
 
     return(
-    
-    <div className="body-header">
-        <div className="image-novel">
-            <img src='public\Cover Novel.jpg' alt='#' width={"180px"}/>
-            <div className='text-header'>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standarddummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                <div className="Link-btn">
-                    <LinkButton variant='btn btn--filled'>Read Sinopsis</LinkButton>       
-                    <LinkButton variant='btn btn--outline' href="https://www.nihbuatjajan.com/rossi_ramadhan/e/65d4114fd76624005060efeb" con='btn--image-icon'>Full read on NihBuatJajan <img src="public/external-link.png" width={"15px"}/>
-                    </LinkButton>       
-            </div>
+
+        
+    <div className="body-sinopsis">
+        <h1>Sinopsis The Loop</h1>
+        <div className="sisnopsis-detail">
+<pre className="preClass">
+        {
+`Dalam kehidupan Anvi di tahun 2070 di Negara Nutshell, sebuah konflik politik dan penjajahan asing mengguncang kehidupannya.            
+Anvi, seorang remaja SMA, terperangkap dalam perang sengit antara warga sipil dan negara asing yang mengincar keahlian di berbagai sektor, 
+Di tengah krisis ini, Anvi melarikan diri dari sekolah dengan motor vespa tuanya.Namun, dalam momen kritis, motor kesayangannya, "siput," 
+mengalami kerusakan, dan Anvi berjuang untuk bertahan hidup. 
+                
+Sementara dia mencoba menghindari bahaya, tiba-tiba Anvi terjebak dalam glitch aneh yang membawa perubahan mendalam. 
+Reruntuhan bangunan dan kejadian aneh lainnya menghantamnya, menciptakan pengalaman layaknya game rusak atau televisi yang glitch.
+Tanpa menyadari dampak penuh dari peristiwa ini, Anvi terbangun dalam kehidupan baru yang dipenuhi dengan iterasi tak terhingga. 
+                
+Apakah ini mimpi, realitas, atau sesuatu yang jauh lebih rumit? 
+
+"The Looping" adalah kisah petualangan Anvi di dunia yang terdistorsi, 
+di mana setiap tidur membawa perubahan yang tak terduga dalam hidupnya.`
+                }
+</pre>
         </div>       
     </div>
 
-        <div className="list-Novel">
-            
-        </div>
-    </div>    
+
+  
     );
 }

@@ -1,15 +1,17 @@
-
-import Novelpage from './page/Novelpage'
+import { RouterProvider } from 'react-router-dom'
+import { router } from './page/routes'
 import './App.css'
+
 
 function App() {
 
 
   return (
     <div>
-      <Novelpage />
+      <RouterProvider router={router} />
     </div>
   )
+
 }
 
 export default App

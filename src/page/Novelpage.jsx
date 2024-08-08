@@ -9,6 +9,7 @@ export default function Novelpage(){
 
     return(
     
+<div className="Novelpage">
     <div className="body-header">
         <div className="image-novel">
             <img src='public\Cover Novel.jpg' alt='#' width={"180px"}/>
@@ -18,13 +19,24 @@ export default function Novelpage(){
                     <LinkButton variant='btn btn--filled'>Read Sinopsis</LinkButton>       
                     <LinkButton variant='btn btn--outline' href="https://www.nihbuatjajan.com/rossi_ramadhan/e/65d4114fd76624005060efeb" con='btn--image-icon'>Full read on NihBuatJajan <img src="public/external-link.png" width={"15px"}/>
                     </LinkButton>       
-            </div>
-        </div>       
+                </div>
+            </div>      
+        </div>
     </div>
 
-        <div className="list-Novel">
-            
+        <div className="details">
+        <h1>Ohter Novel</h1>
+        <li className="Slider-Image"></li>
+        <li className="Slider-Image"></li>
+        <li className="Slider-Image"></li>
         </div>
-    </div>    
+
+
+    
+</div>
+
+
+
+
     );
 }
